@@ -7,13 +7,13 @@ To run the server side script datagram_server.rb, a sample command that you need
 ruby datagram_server.rb 12345
 --> Here 12345 stands for the port number.
 
-To run the client side script datagrams_in_ruby.rb, a sample command is:-
+To run the client side script datagram_client.rb, a sample command is:-
 
-ruby datagrams_in_ruby.rb localhost 12345
+ruby datagrams_client.rb localhost 12345
 --> Here
 - localhost is your hostname
 - 12345 stands for the port number	
 
 Hope this gets you going. 
 
-Cheers..
+Cheers :)
