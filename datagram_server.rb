@@ -27,16 +27,13 @@ loop do
     $client_id += 1
     puts "#{$clients}"
   else
-    #puts(r.include? 'a')
     unless $clients.include? clientport       
       puts "Client #{$client_id} enters the chat room "
       $clients[$client_id-1] = clientport
       $client_id += 1
     end
-        #    $client_id += 1
   end
 
-#    puts "Connection from :Client #{clientport} says: #{response} #{clientname} #{clientaddr} #{clientport}"
   if( response.chop != "quit")
     puts "Client #{clientport}  says: #{response} "
   else
@@ -51,5 +48,4 @@ loop do
       break
     end
   end
-#    ds.send(response, 0, clientaddr, clientport)
 end
