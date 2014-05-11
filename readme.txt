@@ -9,7 +9,7 @@ ruby datagram_server.rb 12345
 
 To run the client side script datagram_client.rb, a sample command is:-
 
-ruby datagrams_client.rb localhost 12345
+ruby datagram_client.rb localhost 12345
 --> Here
 - localhost is your hostname
 - 12345 stands for the port number	
